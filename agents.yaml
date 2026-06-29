@@ -26,3 +26,9 @@ hosts:
     runtime: pi
     owner_id: ""
     host: teams-b
+    skills: [agentctl, browser, dream-cycle, housekeeper, knowledge-base, memory, recall]
+    channel: teams
+    owner_aad: 3e45f2bc-b0e9-4315-b473-ac5e1b9d2e20
+    provider: openrouter
+    model: z-ai/glm-5.2
+    clitools: [browser]
