@@ -4,6 +4,7 @@
 agents:
   agent-a:
     runtime: pi
+    host: teams-a
     owner_id: ""
     admin: true
     skills: [agentctl, browser, dream-cycle, housekeeper, knowledge-base, memory, recall]
