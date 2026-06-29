@@ -18,3 +18,5 @@ host:
   cron: [job-watchdog, load-monitor, runaway-reaper, telegram-watchdog]
 
   name: teams-a
+hosts:
+  teams-a: age1fru272xhnqfzsy4k48ah4wtns9pyy5pwhj24kxj77yfpympfysuqvy7kmc
