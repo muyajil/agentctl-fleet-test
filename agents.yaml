@@ -31,4 +31,4 @@ hosts:
     owner_aad: 3e45f2bc-b0e9-4315-b473-ac5e1b9d2e20
     provider: openrouter
     model: z-ai/glm-5.2
-    clitools: [browser]
+    clitools: [browser, teams]
