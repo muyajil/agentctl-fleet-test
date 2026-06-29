@@ -22,3 +22,7 @@ hosts:
   teams-a: age1fru272xhnqfzsy4k48ah4wtns9pyy5pwhj24kxj77yfpympfysuqvy7kmc
 
   teams-b: age14kmfvpspqf7l2jkzvzwdndya2agw5v74clpz0lqjuj0f7teyka4sjct3mg
+  agent-b:
+    runtime: pi
+    owner_id: ""
+    host: teams-b
