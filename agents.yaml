@@ -11,7 +11,7 @@ agents:
     owner_aad: f9ad6b5b-5e10-47aa-b215-77afb2fefaed
     provider: openrouter
     model: z-ai/glm-5.2
-    clitools: [browser, teams, telegram]
+    clitools: [browser, teams]
     cron: [dream-cycle, workspace-maintenance, zk-index]
 
 host:
