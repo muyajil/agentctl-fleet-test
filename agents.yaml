@@ -15,6 +15,7 @@ agents:
     cron: [dream-cycle, workspace-maintenance, zk-index]
 
 host:
+  teams_gateway: teams-a
   cron: [job-watchdog, load-monitor, runaway-reaper, telegram-watchdog]
 
   name: teams-a
