@@ -1,6 +1,11 @@
 # agentctl group repo — declarative fleet definition.
 # Seed from a live host with:  cp /etc/agentctl/fleet.yaml agents.yaml
 # Custom skills/MCPs/subagents/tools go in ./skills ./mcp ./agents ./tools (overlay the deb defaults).
-agents: {}
+agents:
+  agent-a:
+    runtime: pi
+    owner_id: ""
+    admin: true
+
 host:
   cron: [job-watchdog, load-monitor, runaway-reaper, telegram-watchdog]
