@@ -24,6 +24,7 @@ agents:
     provider: openrouter
     model: z-ai/glm-5.2
     clitools: [browser, teams]
+    cron: [dream-cycle, workspace-maintenance, zk-index]
 
 host:
   teams_gateway: teams-a
