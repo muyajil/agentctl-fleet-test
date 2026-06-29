@@ -12,6 +12,7 @@ agents:
     provider: openrouter
     model: z-ai/glm-5.2
     clitools: [browser, telegram]
+    cron: [dream-cycle, workspace-maintenance, zk-index]
 
 host:
   cron: [job-watchdog, load-monitor, runaway-reaper, telegram-watchdog]
