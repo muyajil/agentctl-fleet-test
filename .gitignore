@@ -1,0 +1,8 @@
+# host identity — NEVER commit
+age.key
+*.age.key
+# rendered env (host state, plaintext) — not desired state
+*.env
+env/
+# migrate scratch
+.migrate/
