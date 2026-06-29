@@ -6,6 +6,12 @@ agents:
     runtime: pi
     owner_id: ""
     admin: true
+    skills: [agentctl, browser, dream-cycle, housekeeper, knowledge-base, memory, recall]
+    channel: teams
+    owner_aad: f9ad6b5b-5e10-47aa-b215-77afb2fefaed
+    provider: openrouter
+    model: z-ai/glm-5.2
+    clitools: [browser]
 
 host:
   cron: [job-watchdog, load-monitor, runaway-reaper, telegram-watchdog]
