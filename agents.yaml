@@ -16,3 +16,5 @@ agents:
 
 host:
   cron: [job-watchdog, load-monitor, runaway-reaper, telegram-watchdog]
+
+  name: teams-a
